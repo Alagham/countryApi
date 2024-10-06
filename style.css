@@ -1,0 +1,165 @@
+body{
+  margin-left: 20px;
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+}
+
+
+body.dark-mode {
+    background-color:hsl(207, 26%, 17%);
+    color:  hsl(0, 0%, 100%);
+}
+
+
+nav{
+    display: flex;
+    /* border: 3px solid green; */
+    justify-content: space-between;
+    /* background-color: hsl(0, 0%, 100%); */
+    box-shadow : 0 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+nav.dark-mode{
+    background-color:hsl(207, 26%, 17%);
+    color:  hsl(0, 0%, 100%); 
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid  hot brown; */
+
+
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    /* background-color:hsl(0, 0%, 100%) ;box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+}
+
+
+/* .search-box.dark-mode{
+    background-color:hsl(207, 26%, 17%);
+    color:  hsl(0, 0%, 100%);  */
+/* } */
+
+
+#search{
+    /* border: 2px solid navy; */
+    width:150px;
+    height:30px;
+    background-color:hsl(0, 0%, 100%) ;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: none;
+}
+
+body.dark-mode #search, body.dark-mode #search1, body.dark-mode img{
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+}
+
+#search1{
+    width: 450px;
+    height: 30px;
+    text-align: left;
+    border: none;
+    
+    /* background-color:hsl(0, 0%, 100%) ;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+}
+
+.card{
+    display: flex;           
+    flex-wrap: wrap;                      
+    justify-content: space-between; 
+    gap: 50px;
+}
+
+.card div {
+    /* width: 55%;  */
+    box-sizing: border-box; 
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 5px;
+    width:250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+body.dark-mode .card div {
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 250px;   
+    height: 200px;  
+    object-fit: cover;
+    border-radius: 5px;
+}         
+
+
+h3, p{
+    margin-left: 20px;  
+}
+
+
+button{
+  width: 150px;  
+  height:30px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+img{
+    width: 30px;
+}
+.soft{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    input[placeholder]{
+        color:  black;
+       }
+       ::placeholder{
+        
+       }
+}
+
+body.dark-mode #toggle {
+    background-color:hsl(207, 26%, 17%);
+    color:  hsl(0, 0%, 100%);
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.popup-container {
+    display: flex;
+    margin-right: 1000px;
+    h3{
+        width: 500px;
+        height: 20px;
+    }
+
+    
+}
+
+
+#backButton {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+   
+}
+
+.dark-mode #backButton {
+    background-color:hsl(207, 26%, 17%);
+    color: white;
+}
+
